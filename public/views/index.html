@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DASHY Player</title>
+    <script src="../js/globals.js"></script>
+    <script src="../js/dash.js"></script>
+    <script src="../js/adaptation.js"></script>
+    <script src="../js/bandwidth.js"></script>
+    <script src="../js/bitrateMeasurement.js"></script>
+    <script src="../js/xmlParser.js"></script>
+    <script src="../js/mediaBuffer.js"></script>
+    <script src="../js/mpdObjectConstructor.js"></script>
+    <script src="../js/xml2Json.js"></script>
+</head>
+<body onload="loadXMLDoc()">
+
+<button onclick="dashHTTP()">Buffer</button>
+<button onclick="initiatePlayOut()">Playout</button>
+<p id="video"></p>
+<p id="bps"></p>
+<p id="identifier"></p>
+</body>
+
+</html>

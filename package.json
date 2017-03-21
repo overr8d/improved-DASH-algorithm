@@ -1,0 +1,26 @@
+{
+  "name": "improved_dash_algorithm",
+  "version": "1.0.0",
+  "description": "UBI_Video_Codec",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/overr8d/improved_DASH_algorithm.git"
+  },
+  "keywords": [
+    "DASH",
+    "SARA"
+  ],
+  "author": "Pronious",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/overr8d/improved_DASH_algorithm/issues"
+  },
+  "homepage": "https://github.com/overr8d/improved_DASH_algorithm#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
